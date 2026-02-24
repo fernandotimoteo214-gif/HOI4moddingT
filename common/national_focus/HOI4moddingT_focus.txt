@@ -1,0 +1,58 @@
+focus_tree = {
+	id = HOI4moddingT_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+
+	focus = {
+		id = HOI4moddingT_GER_industrial_expansion
+		icon = GFX_focus_ger_mefo_bills
+		cost = 10
+		x = 0
+		y = 0
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = HOI4moddingT_industrial_spirit
+		}
+	}
+
+	focus = {
+		id = HOI4moddingT_GER_military_buildup
+		icon = GFX_focus_generic_military_sphere
+		cost = 10
+		prerequisite = { focus = HOI4moddingT_GER_industrial_expansion }
+		x = 0
+		y = 1
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 50
+			add_tech_bonus = {
+				name = HOI4moddingT_land_tech_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = HOI4moddingT_GER_diplomatic_outreach
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10
+		prerequisite = { focus = HOI4moddingT_GER_industrial_expansion }
+		x = 2
+		y = 1
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+}

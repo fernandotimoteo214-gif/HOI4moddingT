@@ -1,0 +1,2 @@
+# HOI4moddingT - Country Tags
+# Add custom country tags here if needed

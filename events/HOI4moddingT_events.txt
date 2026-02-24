@@ -1,0 +1,21 @@
+add_namespace = HOI4moddingT
+
+# Example event: Industrial Breakthrough
+country_event = {
+	id = HOI4moddingT.1
+	title = HOI4moddingT.1.t
+	desc = HOI4moddingT.1.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = HOI4moddingT.1.a
+		add_ideas = HOI4moddingT_industrial_spirit
+	}
+
+	option = {
+		name = HOI4moddingT.1.b
+		add_political_power = 50
+	}
+}
