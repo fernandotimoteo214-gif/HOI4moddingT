@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		HOI4moddingT_industrial_spirit = {
+			picture = generic_industrial_concern_1
+
+			modifier = {
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+l_english:
+ # Focus tree
+ HOI4moddingT_GER_industrial_expansion: "Industrial Expansion"
+ HOI4moddingT_GER_industrial_expansion_desc: "We must invest in our industrial base to prepare for the challenges ahead."
+ HOI4moddingT_GER_military_buildup: "Military Buildup"
+ HOI4moddingT_GER_military_buildup_desc: "Our armed forces must be modernized and expanded."
+ HOI4moddingT_GER_diplomatic_outreach: "Diplomatic Outreach"
+ HOI4moddingT_GER_diplomatic_outreach_desc: "We shall seek allies and expand our influence through diplomacy."
+
+ # Ideas
+ HOI4moddingT_industrial_spirit: "Industrial Spirit"
+ HOI4moddingT_industrial_spirit_desc: "Our nation embraces industrial progress, boosting factory output and construction speed."
+
+ # Events
+ HOI4moddingT.1.t: "Industrial Breakthrough"
+ HOI4moddingT.1.d: "Our engineers have made a significant breakthrough in industrial technology. How shall we put this to use?"
+ HOI4moddingT.1.a: "Invest in our factories."
+ HOI4moddingT.1.b: "Use the momentum for political gain."
